@@ -1,8 +1,6 @@
 package br.com.example.metric.demo.resources;
 
 import io.micrometer.core.annotation.Timed;
-import io.micrometer.core.instrument.Gauge;
-import io.micrometer.core.instrument.MeterRegistry;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
